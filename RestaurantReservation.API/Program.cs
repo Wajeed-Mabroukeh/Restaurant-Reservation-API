@@ -6,7 +6,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.MapGet("/", () => "dcd");
+//app.MapGet("/", () => "dcd");
 
 
 // Configure the HTTP request pipeline.
