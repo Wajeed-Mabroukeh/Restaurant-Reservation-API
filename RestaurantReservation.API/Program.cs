@@ -6,11 +6,9 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-//app.MapGet("/", () => "dcd");
-
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || true)
 {
     app.UseSwagger();
     app.UseSwaggerUI();
